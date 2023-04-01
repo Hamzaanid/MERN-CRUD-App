@@ -1,6 +1,5 @@
 // Importing important packages
 import express from 'express';
-import employeeModel from '../Model/Employee.js';
 import {getAll,addEmployee,editEmployee,updateEmployee,deleteEmployee} from '../Controllers/EmployeeController.js';
 
 const app = express();
